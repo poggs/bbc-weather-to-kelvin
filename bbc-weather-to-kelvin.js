@@ -21,7 +21,7 @@ window.addEventListener('load', function() {
 
         var node = document.createElement('span');
         node.setAttribute('class', 'unit');
-        var textNode = document.createTextNode(' F');
+        var textNode = document.createTextNode(' K');
         node.appendChild(textNode);
         nodes[i].appendChild(node);
 
